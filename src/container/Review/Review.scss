@@ -1,0 +1,54 @@
+.review {
+  padding: 4rem;
+  background: #ecf6fa;
+  .app__review-heading {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    h2 {
+      color: #0e2258;
+      font-size: 2.5rem;
+      position: relative;
+      &::after,
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        background: #4628ba;
+
+        height: 3px;
+      }
+      &::after {
+        width: 20px;
+        left: 40%;
+      }
+      &::before {
+        width: 70px;
+        left: 45%;
+      }
+    }
+    small {
+      color: #4628ba;
+
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 16px;
+      position: relative;
+    }
+  }
+  @media screen and (max-width: 560px) {
+    padding: 1rem;
+    .app__review-heading {
+      h2 {
+        font-size: 2rem;
+        &::after {
+          width: 10px;
+        }
+        &::before {
+          width: 70px;
+        }
+      }
+    }
+  }
+}

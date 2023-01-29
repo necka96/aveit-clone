@@ -1,0 +1,18 @@
+.counter-holder {
+  border: 1px solid #fff;
+  padding: 4rem;
+  border-radius: 10px;
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  h3 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  p {
+    color: #fff;
+    font-size: 1.6rem;
+  }
+}
