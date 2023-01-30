@@ -23,12 +23,9 @@ const Pricing = () => {
       </motion.div>
       <motion.div
         className='pricing-cards'
-        variants={staggerContainer}
-        initial='hidden'
-        whileInView='show'
-        viewport={{ once: false }}
+        variants={fadeIn("up", "tween", 0.5, 1)}
       >
-        <motion.div className='card' variants={fadeIn("up", "tween", 0.6, 1)}>
+        <motion.div className='card'>
           <div className='card-heading'>
             <p className='plan-title'>Basic</p>
             <h3>
@@ -61,10 +58,7 @@ const Pricing = () => {
             Choose plan
           </a>
         </motion.div>
-        <motion.div
-          className='card active'
-          variants={fadeIn("up", "tween", 0.5, 1)}
-        >
+        <motion.div className='card active'>
           <div className='card-heading'>
             <p className='plan-title'>Starter Plan</p>
             <h3>
@@ -97,7 +91,7 @@ const Pricing = () => {
             Choose plan
           </a>
         </motion.div>
-        <motion.div className='card' variants={fadeIn("up", "tween", 0.6, 1)}>
+        <motion.div className='card'>
           <div className='card-heading'>
             <p className='plan-title'>Premium Plan</p>
             <h3>

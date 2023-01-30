@@ -118,9 +118,16 @@ const Contact = () => {
               </motion.div>
             </motion.form>
           ) : (
-            <motion.p variants={fadeIn("up", "tween", 0.5, 1)}>
-              Thank you {name} for contact us
-            </motion.p>
+            <motion.div
+              variants={staggerContainer}
+              initial='hidden'
+              whileInView='show'
+              viewport={{ once: false }}
+            >
+              <motion.p variants={fadeIn("up", "tween", 0.5, 1)}>
+                Thank you {name} for contact us
+              </motion.p>
+            </motion.div>
           )}
         </motion.div>
         <motion.div
