@@ -9,7 +9,7 @@ const blog = [
     paragraph3:
       "Another advantage of 5G technology is its ability to support high-speed, low-latency communications, which is crucial for emerging technologies such as virtual reality, augmented reality, and telemedicine. These technologies rely on a high-speed and low-latency connection to provide a seamless and immersive experience, and 5G is capable of delivering that. With 5G, virtual reality and augmented reality will become more accessible, and telemedicine will become more efficient, making it possible to provide medical consultations remotely.",
     mainImage:
-      "https://wordpressriverthemes.com/aveitelementor/wp-content/uploads/2022/03/v1.jpg",
+      "https://images.pexels.com/photos/1942487/pexels-photo-1942487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=450&dpr=2",
     image1:
       "https://images.pexels.com/photos/11953865/pexels-photo-11953865.jpeg?auto=compress&cs=tinysrgb&w=600",
     image2:
@@ -62,7 +62,7 @@ const blog = [
     paragraph3:
       "Another advantage of blockchain in supply chain management is its ability to enable smart contracts. Smart contracts are self-executing contracts with the terms of the agreement written directly into the code. With blockchain, smart contracts can automate the execution of transactions and reduce the need for intermediaries. This can lead to a more efficient and cost-effective supply chain, which can benefit both the supplier and the customer.",
     mainImage:
-      "https://wordpressriverthemes.com/aveitelementor/wp-content/uploads/2022/03/v4-1.jpg",
+      "https://images.pexels.com/photos/8370384/pexels-photo-8370384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     image1:
       "https://images.pexels.com/photos/6893329/pexels-photo-6893329.jpeg?auto=compress&cs=tinysrgb&w=600",
     image2:
