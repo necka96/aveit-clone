@@ -175,6 +175,7 @@ const Footer = () => {
                 value={email}
                 onChange={handleChange}
                 placeholder='Email*'
+                required
               />
               <button>
                 <FiSend />
